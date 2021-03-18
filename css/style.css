@@ -31,13 +31,14 @@ h1 {
 p {
     padding-top: 10px;
     text-transform: uppercase;
+    padding-bottom: 4vh;
 }
 
 .pwd-hider {
-    padding-top: 4vh;
+    height: 25vh;
     display: flex;
     position: relative;
-    width: 300px;
+    width: 600px;
     margin: 10px auto;
     justify-content: space-between;
 }
@@ -47,7 +48,7 @@ p {
     border: 1px solid black;
     background: red;
     background: url('https://www.picclickimg.com/d/l400/pict/193547198989_/CHERRY-BLOSSOM-Wallpaper-112-Dolls-House-Green-Paper.jpg');
-    height: 25vh;
+    height: 100%;
     transition: width 3s;
 }
 
@@ -57,11 +58,13 @@ p {
 
 #pwd {
     position: absolute;
-    max-width: 550px;
+    width: 550px;
     word-break: break-all;
     z-index: -1;
     top: 50%;
     left: 50%;
+    font-size: 150%;
+    text-shadow: 1px 1px 1px black;
     transform: translate(-50%, -50%);
 }
 

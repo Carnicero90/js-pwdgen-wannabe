@@ -9,6 +9,9 @@
    ============== */
 body {
     text-align: center;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* ============== */
@@ -19,10 +22,19 @@ body {
 h1 {
     padding-top: 10vh;
     padding-bottom: 5vh;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    background: tomato;
+
+}
+
+p {
+    padding-top: 10px;
+    text-transform: uppercase;
 }
 
 .pwd-hider {
-    padding-top: 8vh;
+    padding-top: 4vh;
     display: flex;
     position: relative;
     width: 300px;
@@ -34,6 +46,7 @@ h1 {
     width: 300px;
     border: 1px solid black;
     background: red;
+    background: url('https://www.picclickimg.com/d/l400/pict/193547198989_/CHERRY-BLOSSOM-Wallpaper-112-Dolls-House-Green-Paper.jpg');
     height: 25vh;
     transition: width 3s;
 }
@@ -56,7 +69,7 @@ h1 {
     content: "";
     border: 15px solid transparent;
     display: block;
-    border-bottom-color: black;
+    border-bottom-color: whitesmoke;
     width: 0px;
     margin: auto;
     margin-bottom: 10px;

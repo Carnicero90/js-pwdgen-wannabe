@@ -49,7 +49,7 @@ p {
     background: red;
     background: url('https://www.picclickimg.com/d/l400/pict/193547198989_/CHERRY-BLOSSOM-Wallpaper-112-Dolls-House-Green-Paper.jpg');
     height: 100%;
-    transition: width 3s;
+    transition: width 2s;
 }
 
 .pwd-hider:active .curtain {

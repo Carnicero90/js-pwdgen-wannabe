@@ -1,14 +1,12 @@
 // VARS
-var nomeUtente = prompt("Come ti chiami?");
+var nomeUtente = prompt("Come ti chiami?") || "";
 
-var cognomeUtente = prompt("Cognome");
+var cognomeUtente = prompt("Cognome") || "";
 
-var colorePreferito = prompt("colore preferito?");
+var colorePreferito = prompt("colore preferito?") || "";
 
-var numeroRandom = 21;
+var numeroRandom = (21).toString();
 
-var unsafePassword = nomeUtente + cognomeUtente + colorePreferito + numeroRandom.toString();
-// toString() non è necessario, ma comunque preferisco metterlo
-
+var unsafePassword = nomeUtente + cognomeUtente + colorePreferito + numeroRandom;
 // OUTPUT
 document.getElementById('pwd').innerHTML = unsafePassword;
